@@ -316,6 +316,26 @@ body{
     }
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
     .learn-more{
     position: relative;
     display: inline-block;
@@ -335,7 +355,7 @@ body{
     height: auto;
    }
    
-   .learn-more .circle {
+   .learn-more .circle_2 {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
     display: block;
@@ -346,7 +366,7 @@ body{
     border-radius: 1.625rem;
    }
    
-   .learn-more .circle .icon {
+   .learn-more .circle_2 .icon_2 {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -355,7 +375,7 @@ body{
     background: rgb(245, 147, 0);
    }
    
-   .learn-more .circle .icon.arrow {
+   .learn-more .circle_2 .icon_2.arrow_2 {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
     width: 1.125rem;
@@ -363,7 +383,7 @@ body{
     background: none;
    }
    
-   .learn-more .circle .icon.arrow::before {
+   .learn-more .circle_2 .icon_2.arrow_2::before {
     position: absolute;
     content: "";
     top: -0.29rem;
@@ -391,11 +411,11 @@ body{
     text-transform: uppercase;
    }
    
-   .learn-more:hover .circle {
+   .learn-more:hover .circle_2 {
     width: 100%;
    }
    
-   .learn-more:hover .circle .icon.arrow {
+   .learn-more:hover .circle_2 .icon_2.arrow_2 {
     background: rgb(255, 0, 0);
     transform: translate(1rem, 0);
    }
